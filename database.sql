@@ -12,7 +12,7 @@ CREATE TABLE PRODUCT(
   stock_quantity INT NULL,
   PRIMARY KEY (item_id)
 );
-USE bamazon;
+
 
 INSERT INTO product ( product_name, department_name, price, stock_quantity)
 VALUES ( "Labron James Sneakers", "Shoes", "124.30", "3");
